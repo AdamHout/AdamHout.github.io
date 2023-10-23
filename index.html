@@ -58,14 +58,33 @@
                     <h2 class="mb-5">Projects</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
+                            <h3 class="mb-0"><a href="https://github.com/AdamHout/MQ-DayTicker-get">IBM MQ Day Ticker</a></h3>
+                            <div class="subheading mb-2">Platform: Linux</div>
+                            <div class="subheading mb-2">Language: C</div>
+                            <p>This project utilizes IBM MQ to send financial market indice data from one Ubuntu machine to another
+                                via a remote queue. Program <a href="https://github.com/AdamHout/MQ-DayTicker-put">mqremoteput</a> 
+                                pulls indice data lines from a CSV data set on machine S1558 and places it on remote queue definition DEV.Q1. 
+                                Transmission channel QM_S1558.QM_E6410 then sends the message to machine E6410. The data set tracks three market 
+                                indexes and two commodities, broken down into one minute intervals. 
+                                Program <a href="https://github.com/AdamHout/MQ-DayTicker-get">mqremoteget</a> pulls the messages off of 
+                                local queue DEV.Q1, parses the CSV data elements and prints them to a console based display. <br><br>
+                                The screen recording below illustrates the processes described above in action: <br>
+                                <img src="MQ-DayTicker.gif" alt="MQ-DayTicker Demo">
+                            </p>
+                        </div>
+                    </div>
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projects</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
                             <h3 class="mb-0"><a href="https://github.com/AdamHout/MQ-Datagrams/branches">IBM MQ Datagrams</a></h3>
                             <div class="subheading mb-2">Platform: Linux</div>
                             <div class="subheading mb-2">Language: C</div>
                             <p>This project demonstrates the sending and receiving of datagrams via IBM MQ running
-                                on Ubuntu. Apllication <a href="https://github.com/AdamHout/MQ-Datagrams">mqdgram</a>
+                                on Ubuntu. Application <a href="https://github.com/AdamHout/MQ-Datagrams">mqdgram</a>
                                 generates a payload of system resource utilization metrics at a rate of one message per second 
                                 and places it on local queue DEV.ADAM. Application <a href="https://github.com/AdamHout/MQ-Datagrams/tree/mqdgrec">mqdgrec</a>
-                                pulls the datagrams off of the queue and displays them on the console along with their message ID. <br>
+                                pulls the datagrams off of the queue and displays them on the console along with their message ID. <br><br>
                                 The screen recording below illustrates these processes in action: <br>
                                 <img src="MQ-Datagrams.gif" alt="MQ-Datagrams Demo">
                             </p>
