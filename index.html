@@ -64,11 +64,12 @@
                             <p>This project utilizes IBM MQ to send financial market indices data from one Ubuntu machine to another
                                 via a remote queue. Program <a href="https://github.com/AdamHout/MQ-DayTicker-put">mqremoteput</a> 
                                 pulls indice data lines from a CSV data set on machine S1558 and places them on remote queue definition DEV.Q1. 
-                                Transmission channel QM_S1558.QM_E6410 then sends the message to machine E6410. The data set tracks three market 
-                                indexes and two commodities over the course of a day, tracked in one minute intervals. 
+                                Transmission channel S1558.E6410 then sends the message to machine E6410. The data set tracks three market 
+                                indexes and two commodities over the course of a day, in one minute intervals. 
                                 Program <a href="https://github.com/AdamHout/MQ-DayTicker-get">mqremoteget</a> pulls the messages off of 
-                                local queue DEV.Q1, parses the CSV data elements and prints them to a console based display. <br><br>
-                                The screen recording below illustrates the processes described above in action: <br>
+                                local queue DEV.Q1, parses the CSV data elements and posts them to a console based display. <br><br>
+                                The configuration illustration and screen recording below demonstrates the processes described above in action: <br>
+                                <img src="DT-Config.gif" alt="DT-Config"><br>
                                 <img src="MQ-DayTicker.gif" alt="MQ-DayTicker Demo">
                             </p>
                         </div>
