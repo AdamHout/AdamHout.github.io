@@ -65,40 +65,27 @@
             <div class="resume-section-content">
                 <hr class="m-0" />
                 <!-- Remote queuing project-->
-                <section class="resume-section" id="remotequeuing">
-                    <div class="resume-section-content">
-                        <h2 class="mb-5">IBM MQ Projects</h2>
-                        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                            <div class="flex-grow-1">
-                                <h3 class="mb-0"><a href="https://github.com/AdamHout/MQ-DayTicker-get">Remote
-                                        Queuing</a></h3>
-                                <div class="subheading mb-2">Platform: Linux</div>
-                                <div class="subheading mb-2">Language: C</div>
-                                <p>This project utilizes IBM MQ to send financial market indices data from one Ubuntu
-                                    machine to another
-                                    via a remote queue. Program <a
-                                        href="https://github.com/AdamHout/MQ-DayTicker-put">mqremoteput</a>
-                                    pulls indice data lines from a CSV data set on machine S1558 and places them on
-                                    remote queue definition DEV.Q1.
-                                    Transmission channel S1558.E6410 then sends the message to machine E6410. The data
-                                    set tracks three market
-                                    indexes and two commodities over the course of a day, in one minute intervals.
-                                    Program <a href="https://github.com/AdamHout/MQ-DayTicker-get">mqremoteget</a> pulls
-                                    the messages off of
-                                    local queue DEV.Q1, parses the CSV data elements and posts them to a console based
-                                    display. <br><br>
-                                    The configuration illustration and screen recording below demonstrates the processes
-                                    described above in action:
-                                    <img src="Remote-Queuing.gif" img class="img-fluid" alt="Remote Queuing"><br>
-                                    <img src="MQ-RemoteQue.gif" img class="img-fluid" alt="Remote Queuing Demo">
-                                    <br><br><br>
-                                    <a href="https://adamhout.github.io/mqprojects.html">See more of my projects utilizing IBM MQ</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
                 <h2 class="mb-5">Projects</h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0"><a href="https://github.com/AdamHout/MQ-DayTicker-get">Remote Queuing</a></h3>
+                        <div class="subheading mb-2">Platform: Linux</div>
+                        <div class="subheading mb-2">Language: C</div>
+                        <p>This project utilizes IBM MQ to send financial market indices data from one Ubuntu machine to another
+                            via a remote queue. Program <a href="https://github.com/AdamHout/MQ-DayTicker-put">mqremoteput</a> 
+                            pulls indice data lines from a CSV data set on machine S1558 and places them on remote queue definition DEV.Q1. 
+                            Transmission channel S1558.E6410 then sends the message to machine E6410. The data set tracks three market 
+                            indexes and two commodities over the course of a day, in one minute intervals. 
+                            Program <a href="https://github.com/AdamHout/MQ-DayTicker-get">mqremoteget</a> pulls the messages off of 
+                            local queue DEV.Q1, parses the CSV data elements and posts them to a console based display. 
+                            <br><br>
+                            <a href="https://adamhout.github.io/mqprojects.html">See more IBM MQ projects</a>
+                            The configuration illustration and screen recording below demonstrates the processes described above in action:
+                            <img src="Remote-Queuing.gif" img class="img-fluid" alt="Remote Queuing"><br>
+                            <img src="MQ-RemoteQue.gif" img class="img-fluid" alt="Remote Queuing Demo">
+                        </p>
+                    </div>
+                </div>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
                         <h3 class="mb-0"><a href="https://adamhout.github.io/embedded.html">Embedded Projects Page</a>
