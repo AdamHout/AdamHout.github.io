@@ -1,217 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Portfolio - Adam Hout</title>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Portfolio - Adam Hout</title>
     <!--    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" /> -->
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Adam Hout</span>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet"
+        type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span class="d-block d-lg-none">Adam Hout</span>
             <!--    <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span> -->
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#credentials">credentials</a></li>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#credentials">credentials</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Page Content-->
+    <div class="container-fluid p-0">
+        <!-- About-->
+        <section class="resume-section" id="about">
+            <div class="resume-section-content">
+                <h1 class="mb-0">
+                    <span class="text-primary"> Adam Hout</span><br> Enterprise Developer
+                </h1>
+                <div class="subheading mb-5">
+                    Contact me: <a href="mailto:Adam.Hout@proton.me">Adam.Hout@proton.me</a><br>
+                    View my <a
+                        href="https://www.dropbox.com/scl/fi/mw92qxq5p5c5883fkrtmp/AdamHout.pdf?rlkey=6jj05dpy6rimssi2mwk6uqrw8&dl=0">Resume</a>
+                </div>
+                <p class="lead mb-5">Witnessing the gain in productivity from the automation of an
+                    <a href="https://www.instron.com/en/products/testing-systems/universal-testing-systems">Instron
+                        universal testing machine</a>
+                    while working as a lab technician began my journey to streamline the world as an
+                    enterprise developer and microcontroller enthusiast.
+                </p>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Projects-->
+        <section class="resume-section" id="projects">
+            <div class="resume-section-content">
+                <hr class="m-0" />
+                <!-- Remote queuing project-->
+                <section class="resume-section" id="remotequeuing">
+                    <div class="resume-section-content">
+                        <h2 class="mb-5">IBM MQ Projects</h2>
+                        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                            <div class="flex-grow-1">
+                                <h3 class="mb-0"><a href="https://github.com/AdamHout/MQ-DayTicker-get">Remote
+                                        Queuing</a></h3>
+                                <div class="subheading mb-2">Platform: Linux</div>
+                                <div class="subheading mb-2">Language: C</div>
+                                <p>This project utilizes IBM MQ to send financial market indices data from one Ubuntu
+                                    machine to another
+                                    via a remote queue. Program <a
+                                        href="https://github.com/AdamHout/MQ-DayTicker-put">mqremoteput</a>
+                                    pulls indice data lines from a CSV data set on machine S1558 and places them on
+                                    remote queue definition DEV.Q1.
+                                    Transmission channel S1558.E6410 then sends the message to machine E6410. The data
+                                    set tracks three market
+                                    indexes and two commodities over the course of a day, in one minute intervals.
+                                    Program <a href="https://github.com/AdamHout/MQ-DayTicker-get">mqremoteget</a> pulls
+                                    the messages off of
+                                    local queue DEV.Q1, parses the CSV data elements and posts them to a console based
+                                    display. <br><br>
+                                    The configuration illustration and screen recording below demonstrates the processes
+                                    described above in action:
+                                    <img src="Remote-Queuing.gif" img class="img-fluid" alt="Remote Queuing"><br>
+                                    <img src="MQ-RemoteQue.gif" img class="img-fluid" alt="Remote Queuing Demo">
+                                    <br><br><br>
+                                    <a href="https://adamhout.github.io/mqprojects.html">See more of my projects utilizing IBM MQ</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <h2 class="mb-5">Projects</h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0"><a href="https://adamhout.github.io/embedded.html">Embedded Projects Page</a>
+                        </h3>
+                        <p>See the link above for embedded programming projects</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0"><a href="https://github.com/AdamHout/mcciph">Modified Caesar Cipher</a></h3>
+                        <div class="subheading mb-2">Platform: Linux</div>
+                        <div class="subheading mb-2">Language: C</div>
+                        <p>A Caesar cipher is an ancient form of encryption alleged to have been used by Julius Caesar.
+                            It is a plaintext substitution cipher that works by replacing each character in a message
+                            with
+                            another character a fixed number of positions down the alphabet. For example, a shift of
+                            three
+                            postions would transpose the letter 'A' to the letter 'D'. A shift of the letter 'Y' by
+                            three positions
+                            results in the letter 'B'. My modfied version of this cipher deviates from the traditional
+                            Caesar cipher in two ways:<br>
+                        <ol>
+                            <li>Rather than shifting characters by a fixed number of positions, I use the low order
+                                nibble of the previous character as the shift value for the current character to be
+                                transposed.
+                            </li>
+                            <li>A Caesar cipher is typically restricted to the 26 letters of the alphabet in either all
+                                upper or all lower case. My logic employs the entire pritinable range of the ASCII table
+                                i.e. 0x20 - 0x7E. This allows the use of upper and lower case letters, numbers and
+                                punctuation characters.
+                            </li>
+                        </ol>
+                        </p>
+                        <img src="mcciph-demo.gif" img class="img-fluid" alt="Mcciph Demo">
+                    </div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0"><a href="https://github.com/AdamHout/conslog">Console Log</a></h3>
+                        <div class="subheading mb-2">Platform: z/OS</div>
+                        <div class="subheading mb-2">Language: REXX</div>
+                        <p>This exec accesses the console to execute status displays. The resulting output
+                            is extracted and used to create a log file that is saved as a member of a partioned
+                            data set for basic system monitoring over time.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Education-->
+        <section class="resume-section" id="education">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Education</h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0"><a
+                                href="https://www.baker.edu/academics/undergraduate-studies/college-of-information-technology-and-engineering/computer-science-concentration-in-computer-programming/">Baker
+                                College</a></h3>
+                        <div class="subheading mb-3">Bachelor of Computer Science</div>
+                        <p>GPA: 3.55</p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">2014</span></div>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Skills-->
+        <section class="resume-section" id="skills">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Skills</h2>
+                <div class="subheading mb-3">Programming Languages</div>
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        <i>C</i>
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        <i>Sabretalk aka <a href="https://codedocs.org/what-is/sabretalk">PL/TPF</a></i>
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        <i>Assembler</i>
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        <i>REXX</i>
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        <i>Visual Basic</i>
+                    </li>
+                </ul>
+                <br>
+                <div class="subheading mb-3">Tools</div>
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        <i>z/TPFGI</i>
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        <i>TPF Toolkit</i>
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        <i>VS Code - IBM Z Open Editor</i>
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        <i>Eclipse IDE</i>
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        <i>MPLABX IDE</i>
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        <i>XEDIT</i>
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        <i>ISPF/SDSF/IPCS</i>
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        <i>PCOMM/X3270</i>
+                    </li>
                 </ul>
             </div>
-        </nav>
-        <!-- Page Content-->
-        <div class="container-fluid p-0">
-            <!-- About-->
-            <section class="resume-section" id="about">
-                <div class="resume-section-content">
-                    <h1 class="mb-0">
-                        <span class="text-primary"> Adam Hout</span><br> Enterprise Developer
-                    </h1>
-                    <div class="subheading mb-5">
-                        Contact me: <a href="mailto:Adam.Hout@proton.me">Adam.Hout@proton.me</a><br>
-                        View my <a href="https://www.dropbox.com/scl/fi/mw92qxq5p5c5883fkrtmp/AdamHout.pdf?rlkey=6jj05dpy6rimssi2mwk6uqrw8&dl=0">Resume</a> 
-                    </div>
-                    <p class="lead mb-5">Witnessing the gain in productivity from the automation of an 
-                                        <a href="https://www.instron.com/en/products/testing-systems/universal-testing-systems">Instron universal testing machine</a> 
-                                        while working as a lab technician began my journey to streamline the world as an 
-                                        enterprise developer and microcontroller enthusiast.</p>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Experience-->
-            <section class="resume-section" id="projects">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Projects</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0"><a href="https://adamhout.github.io/mqprojects.html">IBM MQ Projects Page</a></h3>
-                            <p>See the link above for all of my projects using IBM Message Queuing (MQ)</p>   
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0"><a href="https://adamhout.github.io/embedded.html">Embedded Projects Page</a></h3>
-                            <p>See the link above for embedded programming projects</p>   
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0"><a href="https://github.com/AdamHout/mcciph">Modified Caesar Cipher</a></h3>
-                            <div class="subheading mb-2">Platform: Linux</div>
-                            <div class="subheading mb-2">Language: C</div>
-                            <p>A Caesar cipher is an ancient form of encryption alleged to have been used by Julius Caesar. 
-                               It is a plaintext substitution cipher that works by replacing each character in a message with 
-                               another character a fixed number of positions down the alphabet. For example, a shift of three 
-                               postions would transpose the letter 'A' to the letter 'D'. A shift of the letter 'Y' by three positions 
-                               results in the letter 'B'. My modfied version of this cipher deviates from the traditional 
-                               Caesar cipher in two ways:<br>
-                               <ol>
-                                 <li>Rather than shifting characters by a fixed number of positions, I use the low order 
-                                     nibble of the previous character as the shift value for the current character to be transposed.
-                                 </li>
-                                 <li>A Caesar cipher is typically restricted to the 26 letters of the alphabet in either all 
-                                     upper or all lower case. My logic employs the entire pritinable range of the ASCII table 
-                                     i.e. 0x20 - 0x7E. This allows the use of upper and lower case letters, numbers and punctuation characters.
-                                 </li> 
-                               </ol>
-                            </p>
-                            <img src="mcciph-demo.gif" img class="img-fluid" alt="Mcciph Demo">
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0"><a href="https://github.com/AdamHout/conslog">Console Log</a></h3>
-                            <div class="subheading mb-2">Platform: z/OS</div>
-                            <div class="subheading mb-2">Language: REXX</div>
-                            <p>This exec accesses the console to execute status displays. The resulting output
-                                is extracted and used to create a log file that is saved as a member of a partioned
-                                data set for basic system monitoring over time. 
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Education-->
-            <section class="resume-section" id="education">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Education</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0"><a href="https://www.baker.edu/academics/undergraduate-studies/college-of-information-technology-and-engineering/computer-science-concentration-in-computer-programming/">Baker College</a></h3>
-                            <div class="subheading mb-3">Bachelor of Computer Science</div>
-                            <p>GPA: 3.55</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2014</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Skills-->
-            <section class="resume-section" id="skills">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <i>C</i>
-                        </li>
-                        <li> 
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <i>Sabretalk aka <a href="https://codedocs.org/what-is/sabretalk">PL/TPF</a></i>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <i>Assembler</i>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <i>REXX</i>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <i>Visual Basic</i>
-                        </li>
-                    </ul>
-                    <br>
-                    <div class="subheading mb-3">Tools</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <i>z/TPFGI</i>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <i>TPF Toolkit</i>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <i>VS Code - IBM Z Open Editor</i>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <i>Eclipse IDE</i>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <i>MPLABX IDE</i>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <i>XEDIT</i>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <i>ISPF/SDSF/IPCS</i>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <i>PCOMM/X3270</i>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Credentials-->
-            <section class="resume-section" id="credentials">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Digital Credentials / Certifications</h2>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="09beb219-ef10-42ae-81db-98089f68f52d" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="f9721567-62bd-4fdb-90b1-30e9616aa44a" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c41b301b-259d-4606-8138-a69205543b0a" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="b336c9f7-fe8a-44db-85b6-a2e7d0e9bea8" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="df64ad8c-37d8-47ff-be2b-e391eba9acce" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="df9ce643-7795-4de8-801a-139f00f1ec80" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="eaa4c7f3-d749-42ff-8263-fe2b114d81ec" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="b2ca9f84-31dc-43af-8840-459fe427ddcd" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="f69ed0ce-be6e-437f-8262-55122ac904b4" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="11e95a04-0646-4b9f-8b68-2b2c46688559" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="b2afc8e6-1ac0-47fe-ad01-95acdf59b8fa" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="98ae199c-5964-4a1b-9d99-e1cbe9cf135b" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="d04e9eea-8260-491b-a2af-fb3694f61a6b" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="9ce56c70-9eb0-4f3a-9597-7494c6816e16" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="5abc0754-7cb8-40c7-9cbc-c1477ccf2c91" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                </div>
-            </section>
-        </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="scripts.js"></script>
-    </body>
+        </section>
+        <hr class="m-0" />
+        <!-- Credentials-->
+        <section class="resume-section" id="credentials">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Digital Credentials / Certifications</h2>
+                <div data-iframe-width="150" data-iframe-height="270"
+                    data-share-badge-id="09beb219-ef10-42ae-81db-98089f68f52d"
+                    data-share-badge-host="https://www.credly.com"></div>
+                <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                <div data-iframe-width="150" data-iframe-height="270"
+                    data-share-badge-id="f9721567-62bd-4fdb-90b1-30e9616aa44a"
+                    data-share-badge-host="https://www.credly.com"></div>
+                <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                <div data-iframe-width="150" data-iframe-height="270"
+                    data-share-badge-id="c41b301b-259d-4606-8138-a69205543b0a"
+                    data-share-badge-host="https://www.credly.com"></div>
+                <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                <div data-iframe-width="150" data-iframe-height="270"
+                    data-share-badge-id="b336c9f7-fe8a-44db-85b6-a2e7d0e9bea8"
+                    data-share-badge-host="https://www.credly.com"></div>
+                <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                <div data-iframe-width="150" data-iframe-height="270"
+                    data-share-badge-id="df64ad8c-37d8-47ff-be2b-e391eba9acce"
+                    data-share-badge-host="https://www.credly.com"></div>
+                <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                <div data-iframe-width="150" data-iframe-height="270"
+                    data-share-badge-id="df9ce643-7795-4de8-801a-139f00f1ec80"
+                    data-share-badge-host="https://www.credly.com"></div>
+                <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                <div data-iframe-width="150" data-iframe-height="270"
+                    data-share-badge-id="eaa4c7f3-d749-42ff-8263-fe2b114d81ec"
+                    data-share-badge-host="https://www.credly.com"></div>
+                <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                <div data-iframe-width="150" data-iframe-height="270"
+                    data-share-badge-id="b2ca9f84-31dc-43af-8840-459fe427ddcd"
+                    data-share-badge-host="https://www.credly.com"></div>
+                <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                <div data-iframe-width="150" data-iframe-height="270"
+                    data-share-badge-id="f69ed0ce-be6e-437f-8262-55122ac904b4"
+                    data-share-badge-host="https://www.credly.com"></div>
+                <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                <div data-iframe-width="150" data-iframe-height="270"
+                    data-share-badge-id="11e95a04-0646-4b9f-8b68-2b2c46688559"
+                    data-share-badge-host="https://www.credly.com"></div>
+                <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                <div data-iframe-width="150" data-iframe-height="270"
+                    data-share-badge-id="b2afc8e6-1ac0-47fe-ad01-95acdf59b8fa"
+                    data-share-badge-host="https://www.credly.com"></div>
+                <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                <div data-iframe-width="150" data-iframe-height="270"
+                    data-share-badge-id="98ae199c-5964-4a1b-9d99-e1cbe9cf135b"
+                    data-share-badge-host="https://www.credly.com"></div>
+                <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                <div data-iframe-width="150" data-iframe-height="270"
+                    data-share-badge-id="d04e9eea-8260-491b-a2af-fb3694f61a6b"
+                    data-share-badge-host="https://www.credly.com"></div>
+                <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                <div data-iframe-width="150" data-iframe-height="270"
+                    data-share-badge-id="9ce56c70-9eb0-4f3a-9597-7494c6816e16"
+                    data-share-badge-host="https://www.credly.com"></div>
+                <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                <div data-iframe-width="150" data-iframe-height="270"
+                    data-share-badge-id="5abc0754-7cb8-40c7-9cbc-c1477ccf2c91"
+                    data-share-badge-host="https://www.credly.com"></div>
+                <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+            </div>
+        </section>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="scripts.js"></script>
+</body>
+
 </html>
